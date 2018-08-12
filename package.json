@@ -1,9 +1,8 @@
 {
   "name": "nuts-serve",
-  "version": "3.1.1",
+  "version": "4.0.0",
   "description": "Server to make GitHub releases (private) available to download with Squirrel support",
   "main": "./lib/index.js",
-  "homepage": "https://github.com/GitbookIO/nuts",
   "license": "Apache-2.0",
   "dependencies": {
     "analytics-node": "2.1.1",
@@ -30,18 +29,19 @@
     "mocha": "1.18.2",
     "should": "7.0.4"
   },
-  "bugs": {
-    "url": "https://github.com/GitbookIO/nuts/issues"
-  },
   "authors": [
     {
       "name": "Samy Pesse",
       "email": "samypesse@gmail.com"
+    },
+    {
+      "name": "Voakie",
+      "email": "contact@voakie.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/GitbookIO/nuts.git"
+    "url": "https://github.com/Voakie/nuts.git"
   },
   "scripts": {
     "start": "node bin/web.js",
