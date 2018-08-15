@@ -7,23 +7,24 @@
   "dependencies": {
     "analytics-node": "2.1.1",
     "basic-auth": "1.0.3",
-    "body-parser": "1.12.3",
+    "body-parser": "1.18.2",
     "destroy": "1.0.3",
     "express": "^4.13.3",
     "express-useragent": "0.1.9",
     "feed": "^0.3.0",
     "github-webhook-handler": "0.5.0",
-    "lodash": "3.7.0",
+    "lodash": "4.17.5",
     "lru-diskcache": "1.1.1",
-    "octocat": "0.10.2",
+    "octocat": "1.0.0",
     "q": "1.2.0",
-    "request": "2.60.0",
+    "request": "2.84.0",
     "semver": "5.0.1",
     "stream-res": "1.0.1",
     "strip-bom": "2.0.0",
     "understudy": "4.1.0",
     "urljoin.js": "0.1.0",
-    "uuid": "2.0.1"
+    "uuid": "2.0.1",
+    "snyk": "^1.90.2"
   },
   "devDependencies": {
     "mocha": "1.18.2",
@@ -45,6 +46,9 @@
   },
   "scripts": {
     "start": "node bin/web.js",
-    "test": "mocha --reporter list"
-  }
+    "test": "mocha --reporter list",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
