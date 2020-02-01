@@ -24,7 +24,7 @@
     "understudy": "4.1.0",
     "urljoin.js": "0.1.0",
     "uuid": "2.0.1",
-    "snyk": "^1.90.2"
+    "snyk": "^1.290.1"
   },
   "devDependencies": {
     "mocha": "1.18.2",
