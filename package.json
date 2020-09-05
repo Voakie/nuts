@@ -12,7 +12,7 @@
     "express": "^4.13.3",
     "express-useragent": "0.1.9",
     "feed": "^0.3.0",
-    "github-webhook-handler": "0.5.0",
+    "github-webhook-handler": "1.0.0",
     "lodash": "4.17.5",
     "lru-diskcache": "1.1.1",
     "octocat": "1.0.0",
